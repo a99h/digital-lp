@@ -138,14 +138,14 @@ a {
   margin-left: 40px;
 }
 
-.menu__item.tel {
+.menu__item.phone {
   padding: 5px 15px;
   border: 1px solid #fff;
   border-radius: 20px;
   color: #fff;
 }
 
-.menu__item.tel:hover {
+.menu__item.phone:hover {
   border-color: #ff005c;
 }
 
@@ -225,8 +225,6 @@ a {
 }
 
 .services__item {
-  -ms-flex-preferred-size: 30%;
-      flex-basis: 30%;
   font-size: 18px;
   text-align: center;
 }
@@ -287,6 +285,10 @@ a {
   font-size: 18px;
 }
 
+.projects-wrap.wrap {
+  padding-bottom: 0;
+}
+
 .contacts {
   /** &-wrap.wrap
         padding-top: 0 **/
@@ -297,7 +299,32 @@ a {
   background-color: #000;
 }
 
+.footer-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-wrap.wrap {
+  padding: 50px 0;
+}
+
 .footer__logo.logo {
   text-align: left;
+}
+
+.footer__phone {
+  color: #fff;
+}
+
+.footer__phone:hover {
+  color: #ff005c;
+  transition-time: 0.5s;
 }
 /*# sourceMappingURL=style.css.map */
